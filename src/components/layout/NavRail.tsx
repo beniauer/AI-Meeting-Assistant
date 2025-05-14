@@ -1,14 +1,14 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { Home, Mic, CheckSquare, LayoutDashboard, Vault, Settings } from "lucide-react";
+import { Home, Mic, CheckSquare, LayoutDashboard, FileText, Settings } from "lucide-react";
 
 const navItems = [
   { name: "Home", path: "/", icon: <Home className="h-5 w-5" /> },
-  { name: "AI Meeting Assistant", path: "/meeting-assistant", icon: <Mic className="h-5 w-5" /> },
+  { name: "Meeting Assistant", path: "/meeting-assistant", icon: <Mic className="h-5 w-5" /> },
   { name: "Action Center", path: "/action-center", icon: <CheckSquare className="h-5 w-5" rotate={-45} /> },
   { name: "Task Board", path: "/task-board", icon: <CheckSquare className="h-5 w-5" /> },
   { name: "Project Dashboard", path: "/dashboard", icon: <LayoutDashboard className="h-5 w-5" /> },
-  { name: "Knowledge Vault", path: "/vault", icon: <Vault className="h-5 w-5" /> },
+  { name: "Transcript Library", path: "/transcripts", icon: <FileText className="h-5 w-5" /> },
   { name: "Admin & Integrations", path: "/admin", icon: <Settings className="h-5 w-5" /> },
 ];
 

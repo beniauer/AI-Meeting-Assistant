@@ -9,7 +9,7 @@ import MeetingAssistant from "./pages/MeetingAssistant";
 import ActionCenter from "./pages/ActionCenter";
 import TaskBoard from "./pages/TaskBoard";
 import Dashboard from "./pages/Dashboard";
-import KnowledgeVault from "./pages/KnowledgeVault";
+import TranscriptLibrary from "./pages/TranscriptLibrary";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
@@ -27,7 +27,7 @@ const App = () => (
           <Route path="/action-center" element={<ActionCenter />} />
           <Route path="/task-board" element={<TaskBoard />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/vault" element={<KnowledgeVault />} />
+          <Route path="/transcripts" element={<TranscriptLibrary />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
