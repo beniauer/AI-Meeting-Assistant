@@ -1,5 +1,5 @@
 
-import { Clock, Waveform, Rocket } from "lucide-react";
+import { Clock, AudioWaveform, Rocket } from "lucide-react";
 
 const values = [
   {
@@ -8,7 +8,7 @@ const values = [
     text: "Automated notes & tasks free PM time.",
   },
   {
-    icon: <Waveform className="h-8 w-8" />,
+    icon: <AudioWaveform className="h-8 w-8" />,
     title: "95% transcription accuracy",
     text: "Optimised for noisy site audio.",
   },
